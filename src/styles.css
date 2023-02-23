@@ -1,0 +1,146 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Oswald', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    /* color: rgba(255, 255, 255, 0.87); */
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  } */
+  
+  a {
+    font-weight: 500;
+    color: #212529;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #212529;
+    text-shadow: 3px 4px 7px rgba(91, 90, 85, 0.883);
+    transition-duration: 0.6s;
+  }
+
+  #tarjetaAnimada {
+    transition-duration: 0.5s;
+  }
+  
+  #tarjetaAnimada:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+  }
+  .card-cont:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.025);
+    transition-timing-function: ease-in-out;
+  }
+  body {
+    margin: 0;
+    /* display: flex;
+    place-items: center; */
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #dee2e6;;
+  }
+  /* #dee2e6; */
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.2em;
+    line-height: 1.1;
+    margin-top: 75px;
+    margin-bottom: 15px;
+  }
+
+  h2{
+    font-family: 'Oswald', sans-serif;
+      font-size: 2.8em;
+      line-height: 1.1;
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+
+  h3{
+    font-family: 'Oswald', sans-serif;
+      font-size: 2.5em;
+      line-height: 1.1;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  h5{
+    margin: 30px;
+  }
+
+  h2:hover {
+    color: #212529;
+    text-shadow: 3px 4px 7px rgba(91, 90, 85, 0.883);
+    transition-duration: 0.6s;
+    
+  }
+/*   
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  } */
+  
+  /* button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  } */
+  /* button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  } */
+  
+  .card {
+    padding: 0;
+  }
+ 
+  #app {
+    max-width: 1280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5px;
+    padding-bottom: 2rem;
+    text-align: center;
+    /* background-color: #242424; */
+  }
+  
+  /* @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  } */
